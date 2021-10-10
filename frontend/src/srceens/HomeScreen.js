@@ -1,6 +1,6 @@
-import Rating from '../components/Rating';
-import { getProducts } from '../api';
-import { parseRequestUrl } from '../utils';
+import Rating from "../components/Rating";
+import { getProducts } from "../api";
+import { parseRequestUrl } from "../utils";
 
 const HomeScreen = {
   render: async () => {
@@ -41,7 +41,7 @@ const HomeScreen = {
       </li>
       `
         )
-        .join('\n')}
+        .join("\n")}
     `;
   },
 };
