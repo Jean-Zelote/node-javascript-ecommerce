@@ -1,9 +1,9 @@
-import HomeScreen from "./src/srceens/HomeScreen";
-import ProductScreen from "./sr/srceens/ProductScreen";
+import HomeScreen from "./srceens/HomeScreen";
+import ProductScreen from "./srceens/ProductScreen";
 import { parseRequestUrl, showLoading, hideLoading } from "./utils";
-import Error404Screen from "./sr/srceens/Error404Screen";
-import CartScreen from "./sr/srceens/CartScreen";
-import SigninScreen from "./sr/srceens/SigninScreen";
+import Error404Screen from "./srceens/Error404Screen";
+import CartScreen from "./srceens/CartScreen";
+import SigninScreen from "./srceens/SigninScreen";
 import Header from "./components/Header";
 import RegisterScreen from "./srceens/RegisterScreen";
 import ProfileScreen from "./srceens/ProfileScreen";
