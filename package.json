@@ -1,7 +1,7 @@
 {
-  "name": "jsamazona",
+  "name": "M-AUTO",
   "version": "1.0.0",
-  "description": "JS AMAZONA",
+  "description": "M-AUTO",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --watch backend --exec babel-node backend/server.js",
