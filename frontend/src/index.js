@@ -1,21 +1,21 @@
-import HomeScreen from "./srceens/HomeScreen";
-import ProductScreen from "./srceens/ProductScreen";
+import HomeScreen from "./src/srceens/HomeScreen";
+import ProductScreen from "./sr/srceens/ProductScreen";
 import { parseRequestUrl, showLoading, hideLoading } from "./utils";
-import Error404Screen from "./srceens/Error404Screen";
-import CartScreen from "./srceens/CartScreen";
-import SigninScreen from "./srceens/SigninScreen";
+import Error404Screen from "./sr/srceens/Error404Screen";
+import CartScreen from "./sr/srceens/CartScreen";
+import SigninScreen from "./sr/srceens/SigninScreen";
 import Header from "./components/Header";
 import RegisterScreen from "./srceens/RegisterScreen";
 import ProfileScreen from "./srceens/ProfileScreen";
 import ShippingScreen from "./srceens/ShippingScreen";
-import PaymentScreen from "./src/srceens/PaymentScreen";
-import PlaceOrderScreen from "./src/srceens/PlaceOrderScreen";
-import OrderScreen from "./src/srceens/OrderScreen";
-import DashboardScreen from "./src/srceens/DashboardScreen";
-import ProductListScreen from "./src/srceens/ProductListScreen";
-import ProductEditScreen from "./src/srceens/ProductEditScreen";
-import OrderListScreen from "./src/srceens/OrderListScreen";
-import Aside from "./src/components/Aside";
+import PaymentScreen from "./srceens/PaymentScreen";
+import PlaceOrderScreen from "./srceens/PlaceOrderScreen";
+import OrderScreen from "./srceens/OrderScreen";
+import DashboardScreen from "./srceens/DashboardScreen";
+import ProductListScreen from "./srceens/ProductListScreen";
+import ProductEditScreen from "./srceens/ProductEditScreen";
+import OrderListScreen from "./srceens/OrderListScreen";
+import Aside from "./components/Aside";
 
 const routes = {
   "/": HomeScreen,
